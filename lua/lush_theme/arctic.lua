@@ -248,7 +248,7 @@ local theme = lush(function(injected_functions)
     sym("@keyword.function") { fg = blue },
     sym("@keyword.operator") { fg = norm_fg },
     sym("@keyword.return") { fg = pink },
-    sym("@label") { fg = label_fg },
+    sym("@label") { fg = light_blue },
     -- sym("@method") { },
     -- sym("@method.call") { },
     sym("@namespace") { fg = blue_green },
