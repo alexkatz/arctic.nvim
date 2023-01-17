@@ -310,7 +310,6 @@ local theme = lush(function(injected_functions)
     sym('@text.reference')({ fg = orange }),
     -- sym("@text.environment") { },
     -- sym("@text.environment.name") { },
-    sym('@text.reference')({ fg = orange }),
     -- sym("@text.todo") { },
     sym('@text.note')({ fg = info_blue }),
     sym('@text.warning')({ fg = warn_yellow }),
