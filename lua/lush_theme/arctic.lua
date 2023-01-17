@@ -282,7 +282,7 @@ local theme = lush(function(injected_functions)
 
     -- Types
     sym('@type')({ fg = blue_green }),
-    sym('@type.builtin')({ fg = blue }),
+    sym('@type.builtin')({ fg = blue_green }),
     sym('@type.definition')({ fg = blue_green }),
     sym('@type.qualifier')({ fg = blue }),
     sym('@storageclass')({ fg = blue }),
