@@ -19,7 +19,7 @@ return {
   normal = {
     a = { fg = colors.white, bg = colors.blue },
     b = { fg = colors.white, bg = colors.lightgray },
-    c = { fg = colors.white, bg = colors.gray }
+    c = { fg = colors.white, bg = colors.gray },
   },
   insert = {
     a = { fg = colors.white, bg = colors.orange },
@@ -41,5 +41,5 @@ return {
   },
   inactive = {
     a = { fg = colors.white, bg = colors.darkgray },
-  }
+  },
 }
