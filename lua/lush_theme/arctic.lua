@@ -270,7 +270,7 @@ local theme = lush(function(injected_functions)
     -- Keyword
     sym('@keyword')({ Keyword }),
     sym('@keyword.function')({ fg = blue }),
-    sym('@keyword.operator')({ fg = norm_fg }),
+    sym('@keyword.operator')({ fg = blue }),
     sym('@keyword.return')({ fg = pink }),
     -- sym("@conditional") { },
     -- sym("@conditional.ternary") { },
