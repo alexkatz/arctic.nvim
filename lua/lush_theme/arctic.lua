@@ -43,7 +43,6 @@ local theme = lush(function(injected_functions)
   local sym = injected_functions.sym
   return {
 
-    --
     -- Preset
     SelectionHighlightBackground({ bg = '#333a40' }),
     LightBulb({ fg = '#ffcc00' }),
@@ -62,7 +61,7 @@ local theme = lush(function(injected_functions)
     DiffTextDeleted({ bg = '#682520' }),
     DiffTextChanged({ bg = '#4E5A32' }),
     DiffLineAdded({ bg = '#4E5933' }),
-    DiffLineDeleted({ bg = black3 }),
+    DiffLineDeleted({ fg = gray, bg = black3 }),
     DiffLineChanged({ bg = '#383D2C' }),
 
     --
