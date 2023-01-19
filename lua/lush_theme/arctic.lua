@@ -62,7 +62,7 @@ local theme = lush(function(injected_functions)
     DiffTextDeleted({ bg = '#682520' }),
     DiffTextChanged({ bg = '#4E5A32' }),
     DiffLineAdded({ bg = '#4E5933' }),
-    DiffLineDeleted({ bg = '#682520' }),
+    DiffLineDeleted({ bg = black3 }),
     DiffLineChanged({ bg = '#383D2C' }),
 
     --
@@ -147,7 +147,7 @@ local theme = lush(function(injected_functions)
     Conditional({ Statement }),
     Repeat({ Statement }),
     Label({ Statement }),
-    Operator({ fg = norm_fg }),
+    -- Operator({ fg = norm_fg }),
     Keyword({ fg = blue }),
     Exception({ Statement }),
 
