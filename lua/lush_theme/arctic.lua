@@ -294,8 +294,8 @@ local theme = lush(function(injected_functions)
     sym('@property') { sym('@field') },
 
     -- Identifiers
-    sym('@variable') { fg = light_blue },
-    sym('@variable.builtin') { fg = blue },
+    sym('@variable') { fg = blue2 },
+    sym('@variable.builtin') { fg = blue2 },
     -- sym("@constant") { },
     sym('@constant.builtin') { Constant },
     sym('@constant.macro') { Constant },
