@@ -73,7 +73,7 @@ local theme = lush(function(injected_functions)
     DiffLineChanged { bg = '#383D2C' },
     -- Quickfix list (can be used to define qf syntax, e.g.,
     -- ~/.config/nvim/syntax/qf.vim)
-    QfFileName { fg = white },
+    QfFileName { fg = blue },
     QfSelection { bg = '#3a3d41' }, -- terminal.inactiveSelectionBackground
     QfText { fg = '#bbbbbb' }, -- normal text in quickfix list
 
