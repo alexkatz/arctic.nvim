@@ -342,7 +342,7 @@ local theme = lush(function(injected_functions)
     -- sym("@conceal") { },
 
     -- Spell
-    -- sym("@spell") { },
+    sym('@spell') { fg = light_blue },
     -- sym("@nospell") { },
 
     --
