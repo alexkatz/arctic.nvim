@@ -289,7 +289,7 @@ local theme = lush(function(injected_functions)
     -- sym("@conditional.ternary") { },
     -- sym("@repeat") { },
     -- sym("@debug") { },
-    sym('@label') { fg = label_fg },
+    sym('@label') { fg = light_blue },
     -- sym("@include") { },
     -- sym("@exception") { },
 
@@ -342,7 +342,7 @@ local theme = lush(function(injected_functions)
     -- sym("@conceal") { },
 
     -- Spell
-    sym('@spell') { fg = light_blue },
+    -- sym("@spell") { },
     -- sym("@nospell") { },
 
     --
