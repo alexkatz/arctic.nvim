@@ -160,7 +160,7 @@ local theme = lush(function(injected_functions)
     Conditional { Statement },
     Repeat { Statement },
     Label { Statement },
-    -- Operator({ fg = norm_fg }),
+    Operator { fg = norm_fg },
     Keyword { fg = blue },
     Exception { Statement },
 
@@ -282,6 +282,7 @@ local theme = lush(function(injected_functions)
 
     -- Keyword
     sym('@keyword') { Keyword },
+    sym('@keyword.coroutine') { fg = pink },
     sym('@keyword.function') { fg = blue },
     sym('@keyword.operator') { fg = blue },
     sym('@keyword.return') { fg = pink },
