@@ -563,6 +563,9 @@ local theme = lush(function(injected_functions)
 
     -- github copilot
     CopilotSuggestion { fg = gray2 },
+
+    -- blame line
+    BlameLineNvim { fg = gray },
   }
 end)
 ---@diagnostic enable
