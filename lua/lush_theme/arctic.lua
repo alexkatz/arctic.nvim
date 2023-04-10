@@ -220,6 +220,7 @@ local theme = lush(function(injected_functions)
     DiagnosticSignWarn { DiagnosticWarn },
     DiagnosticSignInfo { DiagnosticInfo },
     DiagnosticSignHint { DiagnosticHint },
+    DiagnosticUnnecessary { fg = gray2 },
 
     --
     -- Treesitter
